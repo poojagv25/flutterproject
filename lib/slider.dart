@@ -1,4 +1,4 @@
-import 'DashBoard.dart';
+import 'package:flutter_application_1/HomePage.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -23,8 +23,7 @@ class MyApp extends StatelessWidget {
       darkTheme: ThemeData.dark(),
         
       //First Screen of Slider App
-      home: DashBoard(),
-      
+      home: HomePage(),
     );
   }
 }
